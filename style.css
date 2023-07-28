@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*   {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+p {
+  font-size: 18px;
+}
+
+.main-container {
+  width: 45%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  background-color:  hsl(0, 0%, 100%);
+}
+
+.left-container {
+  background-image: url(images/image-product-desktop.jpg);
+  background-size:cover;
+  width: 50%;
+  border-radius: 15px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+.right-container {
+  width: 50%;
+  padding: 30px;
+}
+
+.button {
+  background-color: rgb(61, 129, 104);
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  color:  hsl(0, 0%, 100%)
+}
+
+.button:hover {
+  background-color: rgb(27, 63, 49);
+}
+
+/* Mobile media query*/
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .left-container {
+    width: 100vw;
+    background-image: url(images/image-product-mobile.jpg);
+  }
+
+  .right-container {
+    width: 100vw;
+  }
+}
