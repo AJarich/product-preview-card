@@ -12,6 +12,7 @@ for both desktop and mobile. The button should change color when hovered over, t
 ### Links
 
 -- [Website URL](https://keen-semifreddo-d7bd31.netlify.app/)
+
 -- [GitHub URL](https://github.com/AJarich/product-preview-card)
 
 ## My Process
@@ -19,13 +20,16 @@ for both desktop and mobile. The button should change color when hovered over, t
 ### Built With
 
 -- HTML5
+
 -- CSS3
+
 -- Flexbox
+
 -- Google Fonts
 
 ### What I Learned
 
-I was able to practice using the flexbox in this project. I used flexbox in many situation. It helped me when the component changed from a horizontal row in
+I was able to practice using the flexbox in this project. I used flexbox in many situations. It helped me when the component changed from a horizontal row in
 desktop to a vertical column in mobile.
 
 I also learned about the text decoration of line-through for the old price.
@@ -36,11 +40,13 @@ In the future, I would want to try to use React.js to create this project.
 
 ### Helpful Links
 
--- [Resource 1](https://youtu.be/S8HgWe3_VYg) - This can help figure out how to center div in middle of the screen
--- [Resource 4](https://fonts.google.com/) - This helped me to use different fonts other than the default web-safe fonts you get.
+-- [Resource 1](https://youtu.be/S8HgWe3_VYg) - This can help figure out how to center div in the middle of the screen.
+
+-- [Resource 2](https://fonts.google.com/) - This helped me to use different fonts other than the default web-safe fonts you get.
 
 
 ## Author
 
 -- Website: http://andreajarich.x10host.com/wp
+
 -- Github Profile: https://github.com/AJarich
